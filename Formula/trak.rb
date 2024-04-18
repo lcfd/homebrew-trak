@@ -1,8 +1,9 @@
 class Trak < Formula
   include Language::Python::Virtualenv
 
-  desc "Trak"
+  desc "Keep a record of the time you dedicate to your projects."
   homepage "https://usetrak.com"
+  license "AGPL-3.0"
 
   url "https://github.com/lcfd/trak/releases/download/v0.0.5/version-0.0.5.tar.gz"
   sha256 "d6b11d0f7d35076ad7a5209f0e1f6ce28ce276cdb150a544c33cb78c54cdde4c"
